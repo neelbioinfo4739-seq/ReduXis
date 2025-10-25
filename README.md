@@ -52,11 +52,11 @@ Clone this repository and install it locally.
 
 `cd ReduXis`
 
-`pip install .`
+`./install.sh`
 
-Alternatively, for an *editable* install, use this:
+Alternatively, for an *editable* install for development, use this:
 
-`pip install -e .`
+`./install.sh -e`
 
 This will install everything listed in `pyproject.toml`, including the `awkde` package, which is used for mixture modelling. 
 
